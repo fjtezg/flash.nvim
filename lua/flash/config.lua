@@ -49,6 +49,9 @@ local defaults = {
     -- labels will no longer be skipped. When it exceeds this length
     -- it will either end in a jump or terminate the search
     max_length = false, ---@type number|false
+
+    -- exit if no results.
+    exit_if_no_results = true,
   },
   jump = {
     -- save location in the jumplist
